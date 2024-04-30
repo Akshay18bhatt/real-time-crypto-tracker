@@ -3,18 +3,24 @@
 .coin-card{
     width: 320px;
     height: 320px;
-    background-color: black;
-    border: 4px solid white;
+    background-color: #1B1B1B;
+    border: 2px solid #1B1B1B;
     padding: 1.5rem;
     box-sizing: border-box;
     cursor: pointer;
     border-radius: 2rem;
+    transition: all 0.3s ease-in;
+}
+.coin-card:hover{
+    transform: scale(1.05,1.05);
 }
 .green-card:hover{
-    border: 4px solid green;
+    border: 2px solid green;
+    
 }
 .red-card:hover{
-    border: 4px solid red;
+    border: 2px solid red;    
+    
 }
 .star{
     width: 45px;
@@ -108,8 +114,8 @@
 }
 
 .trending{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     
 }
@@ -130,8 +136,8 @@
     color: white;
 }
 .red-trending{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     color:  red;
     border-color: red;

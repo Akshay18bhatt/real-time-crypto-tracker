@@ -8,7 +8,7 @@ const Navbar= ()=>{
 
     return(
         <div className="navbar-container">
-            <h1 className="logo">CryptoTracker<span>.</span></h1>
+            <h1 className="logo">CryptoTracker<span style={{color:"#3F00FF"}}>.</span></h1>
 
             <div className="links">
                 <NavLink className={"link"} to={"/"} >Home</NavLink>

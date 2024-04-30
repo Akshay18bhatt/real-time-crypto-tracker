@@ -1,10 +1,28 @@
 .coin-cards-container{
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     flex-wrap: wrap;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 1.5rem 4.8rem;
+}
+.no-match{
+    text-align: center;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+.list-first-th{
+    text-align: left;
+    padding: 10px 0;
 }
 
 

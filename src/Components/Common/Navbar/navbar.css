@@ -5,19 +5,22 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: yellow;
+    background-color: #111111;
+    
+
 }
 
 .links{
     display: flex;
     align-items: center;
     gap: 20px;
+    
 }
 .link{
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
-    color: black;
+    color: #fff;
 
 }
 .active{
@@ -44,8 +47,14 @@
     .links{
         display: none;
     }
+    .link{
+        color: #111111;
+    }
     .mobile-drawer{
         display: block;
+        background-color: #fff;
+        border-radius: 50%;
+      
     }
     .logo{
         font-size: 1.5rem;

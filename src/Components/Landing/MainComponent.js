@@ -36,7 +36,7 @@ const MainComponent = () => {
             </div>
             <div className="right-side-container" >
                 <motion.img 
-                    initial={{y:-10}}
+                    initial={{y:-5}}
                     animate={{y:10}}
                     transition= {{
                         type:"smooth",

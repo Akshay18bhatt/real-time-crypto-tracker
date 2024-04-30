@@ -7,9 +7,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
 }
 
-
+body{
+    background-color: #111111;
+    color: #fff;
+}
 ::-webkit-scrollbar{
     width: 5px;
 }
@@ -17,7 +21,7 @@
     background-color: black;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: red;
+    background-color: #3e3d3d;
     border-radius: 10px;
 }
 

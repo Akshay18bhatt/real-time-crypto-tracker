@@ -10,7 +10,7 @@
 
 .left-side-container{
     width: 50%;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 
@@ -19,14 +19,14 @@
     
 }
 .real-time{
-    color: yellow;
+    color: #3F00FF;
   
 }
 
 .track-crypto:hover{
-    -webkit-text-stroke: 2px black;
-    color: white;
-    transition: all .3s;
+    -webkit-text-stroke: 2px #fff;
+    color: #111111;
+    transition: all .5s linear;
 }
 
 .btns{
@@ -38,7 +38,7 @@
 
 .right-side-container{
     width: 50%;
-    background-color: pink;
+    /* background-color: pink; */
     position: relative;
 }
 .phone{
@@ -168,7 +168,7 @@
     .right-side-container{
         width: 100%;
         margin-top: 30px;
-        background-color: pink;
+        /* background-color: pink; */
         position: relative;
     }
     .phone{

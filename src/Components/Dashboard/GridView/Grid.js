@@ -3,11 +3,13 @@ import "./grid.css"
 
 import TrendingUpOutlined from "@mui/icons-material/TrendingUpOutlined";
 import StarBorderOutlined from "@mui/icons-material/StarBorderOutlined";
+import { useNavigate } from "react-router-dom";
 
 const Grid= ({coin})=>{
 
+    const navigate= useNavigate();
     return(
-        <div className={`coin-card ${coin.price_change_percentage_24h>0? "green-card":"red-card"}`}>
+        <div onClick={()=>navigate(`/coin/${coin.id}`)} className={`coin-card ${coin.price_change_percentage_24h>0? "green-card":"red-card"}`}>
 
 
             {/* ***************** Row 1 **************** */}
@@ -52,7 +54,7 @@ const Grid= ({coin})=>{
 
             <div className="total-div">
                 <p>Total Volume: {coin.total_volume.toLocaleString()}</p>
-                <p>Market Cap: {coin.market_cap.toLocaleString()}</p>
+                <p>Market Cap: ${coin.market_cap.toLocaleString()}</p>
             </div>
 
         </div>
